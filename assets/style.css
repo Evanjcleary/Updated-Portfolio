@@ -1,0 +1,93 @@
+
+body {
+    background:
+    url(https://assets.awwwards.com/awards/images/2015/04/pattern.jpg);
+    height: 100%;
+}
+
+
+.container {
+    justify-content: center;
+    clear: both;
+    /* height: 90%; */
+}
+
+#breakbar {
+    background:white;
+    height: 100px;
+}
+
+#outerbody {
+    height: 75%;
+    padding: 50px;
+}
+
+#main-box {
+    margin-top: 100px;
+    height: 100%
+}
+
+#title-row {
+    height: 20%;
+    color: white;   
+}
+
+#body-row {
+    height: 80%;
+}
+
+h1 {
+    color: gray;
+}
+
+p {
+    color: gray;
+}
+
+.profile-pic {
+    float:left;
+    margin-right: 20px;
+}
+
+.about-me {
+    float:left;
+}
+
+
+#footer-container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    clear: both;
+}
+
+#footer-row {
+    background: gray;
+    height: 80px;
+    border-top-style: solid;
+    border-top-width: 8px;
+    border-top-color: #4aaaa5;
+    width: 100%;
+    margin: 0 0 0 0;
+
+  }
+  
+  #copyright {
+    color: white;
+    margin-top: 40px;
+    font-size: 12px;
+    text-align: center;
+    width: 100%;
+  }
+
+  @media (min-width:992px) {
+  .container {
+      height: 1200px;
+  }
+}
+
+@media (min-width: 768px){
+.container {
+    height: 1200px;
+}
+}
